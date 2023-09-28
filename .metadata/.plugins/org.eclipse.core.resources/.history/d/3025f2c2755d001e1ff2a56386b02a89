@@ -1,0 +1,9 @@
+package com.in28minutes.rest.webservices.restfulwebservices.helloworld;
+
+public class HelloWorldController {
+
+	public HelloWorldController() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
