@@ -1,0 +1,9 @@
+package com.in28minutes.rest.webservices.restfulwebservices.exception;
+
+public class ErrorDetails {
+
+	public ErrorDetails() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

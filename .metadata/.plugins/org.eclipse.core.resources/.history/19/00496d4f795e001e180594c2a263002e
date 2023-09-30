@@ -1,0 +1,22 @@
+package com.in28minutes.rest.webservices.restfulwebservices.user;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class UserResource {
+
+	private UserDaoService service; 
+	
+	
+	public UserResource(UserDaoService service) {
+		this.service = service;
+	}
+
+
+	//GET/users
+	public List<User> retrieveAllUSers(){
+		return service.findAll();
+	}
+}

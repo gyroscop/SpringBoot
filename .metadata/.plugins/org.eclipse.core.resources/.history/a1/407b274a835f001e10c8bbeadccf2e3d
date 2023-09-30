@@ -1,0 +1,38 @@
+package com.in28minutes.rest.webservices.restfulwebservices.exception;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
+public class ErrorDetails {
+
+	// timestamp
+	// message 
+	// description
+	
+	LocalDate  time ;
+	String message;
+	String description ;
+	
+	
+	public ErrorDetails(LocalDate localDate, String message, String description) {
+		super();
+		this.time = localDate;
+		this.message = message;
+		this.description = description;
+	}
+
+
+	public LocalDate getTime() {
+		return time;
+	}
+
+
+	public String getMessage() {
+		return message;
+	}
+
+
+	public String getDescription() {
+		return description;
+	}
+}
